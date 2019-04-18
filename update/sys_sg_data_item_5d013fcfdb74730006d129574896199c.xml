@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <name>Asset by tag</name>
+        <query_condition table="cmdb_ci_computer">asset_tag={{asset_tag}}<item endquery="false" field="asset_tag" goto="false" newquery="false" operator="=" or="false" value="{{asset_tag}}"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-04-18 22:49:12</sys_created_on>
+        <sys_id>5d013fcfdb74730006d129574896199c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Asset by tag</sys_name>
+        <sys_package display_value="mobileintro" source="x_snc_mobileintro">7070b3cfdb74730006d1295748961943</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="mobileintro">7070b3cfdb74730006d1295748961943</sys_scope>
+        <sys_update_name>sys_sg_data_item_5d013fcfdb74730006d129574896199c</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-04-18 22:49:40</sys_updated_on>
+        <table>cmdb_ci_computer</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=5d013fcfdb74730006d129574896199c"/>
+</record_update>

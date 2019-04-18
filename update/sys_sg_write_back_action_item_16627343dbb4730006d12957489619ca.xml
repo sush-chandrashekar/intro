@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Create incident</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-04-18 22:55:48</sys_created_on>
+        <sys_id>16627343dbb4730006d12957489619ca</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Create incident</sys_name>
+        <sys_package display_value="mobileintro" source="x_snc_mobileintro">7070b3cfdb74730006d1295748961943</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="mobileintro">7070b3cfdb74730006d1295748961943</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_16627343dbb4730006d12957489619ca</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-04-18 23:40:19</sys_updated_on>
+        <table>incident</table>
+        <template>cmdb_ci={{config}}^opened_by={{opened_by}}^urgency={{urgency}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=16627343dbb4730006d12957489619ca"/>
+</record_update>

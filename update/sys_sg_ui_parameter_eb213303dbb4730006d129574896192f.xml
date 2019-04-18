@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
+        <button/>
+        <button_parent_table/>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name/>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>qr_barcode</input_type>
+        <mandatory>false</mandatory>
+        <multi_select>false</multi_select>
+        <name>Asset tag</name>
+        <order>0</order>
+        <parameter_type>screen</parameter_type>
+        <placeholder/>
+        <screen display_value="Lookup Asset">67213303dbb4730006d129574896192e</screen>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-04-18 22:49:54</sys_created_on>
+        <sys_id>eb213303dbb4730006d129574896192f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Asset tag</sys_name>
+        <sys_package display_value="mobileintro" source="x_snc_mobileintro">7070b3cfdb74730006d1295748961943</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="mobileintro">7070b3cfdb74730006d1295748961943</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_eb213303dbb4730006d129574896192f</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-04-18 22:53:06</sys_updated_on>
+        <table_name/>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb213303dbb4730006d129574896192f"/>
+</record_update>
